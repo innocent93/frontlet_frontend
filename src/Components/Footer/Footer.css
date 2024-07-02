@@ -1,0 +1,309 @@
+/* Footer Section */
+
+
+:root {
+    --primary-color:  #047aed;
+    --secondary-color: #1c3fa8;
+    --dark-color:#000000;
+    --light-color:#f4f4f4;
+    --error-color: #d9534f;
+    --success-color: #5cb85c;
+    --PrimaryColor: hsl(199, 100%, 33%);
+    --SecondaryColor: hsl(187, 85%, 43%);
+    --blackColor: hsl(201, 33%, 16%);
+    --whiteColor: hsl(0,0%,100%);
+    --textColor: hsl(240, 4%, 36%);
+    --navLinkTextColor: hsla(0, 0%, 13%, 1);
+
+    --whiteColorDeam: hsl(0, 0%, 93%);
+    --greyTextColor: rgb(190,190,190);
+    --inputColor: rgb(239, 239%, 239%);
+    --bodyColor: rgb(240,240,246);
+    --cardBG: rgb(225,225,235);
+    --purple: rgba(244, 119, 51, 1);
+    --pink: rgba(255, 120, 191, 1);
+    --lightGreen: rgba(32, 136, 143, 1);
+
+
+
+    --gradientColor: linear-gradient(to right, hsl(187,85%,43%), hsl(199,100%,33%));
+
+
+}                                           
+
+
+.container {
+   width: 100%;
+   padding: 0 2rem;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.grid-3 {
+    grid-template-columns: repeat(3,1fr);
+}
+
+
+.card {
+    background-color: #fff;
+    color: #333;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+    padding: 20px;
+    margin: 10px;
+}
+.btn {
+    display: inline-block;
+    padding: 10px 30px;
+    cursor: pointer;
+    background-color: var(--primary-color);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+.btn outline {
+    background-color: #fff;
+    border: 1px #fff solid ;
+}
+.btn:hover {
+    transform: scale(0.98);
+}
+/* background & coloured Button */
+.bg-primary, .btn-primary {
+background-color: var(--primary-color);
+color: #fff;
+}
+.bg-secondary, .btn-secondary {
+background-color: var(--secondary-color);
+color: #fff;
+}
+.bg-dark, .btn-dark {
+background-color: var(--dark-color);
+color: #fff;
+}
+.bg-light, .btn-light {
+background-color: var(--light-color);
+color: #333;
+}
+.bg-primary a, .btn-primary a,
+.bg-secondary a, .btn-secondary a,
+.bg-dark a, .btn-dark a {
+ color: #fff;
+}
+
+/* text Colors */
+
+.text-primary {
+color: var(--primary-color);
+
+}
+.text-secondary {
+color: var(--secondary-color);
+
+}
+.text-dark {
+color: var(--dark-color);
+}
+.text-light {
+color: var(--light-color);
+
+}
+
+/* text Sixes */
+.lead {
+    font-size: 20px;
+}
+.sm {
+    font-size: 1rem ;
+}
+.md {
+    font-size: 2rem;
+}
+.lg {
+    font-size: 3rem;
+}
+.xl {
+    font-size: 4rem;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* Alert */
+.alert {
+    background-color: var(--light-color);
+    padding: 10px 20px;
+    font-weight: bold;
+    margin: 15px 0;
+    font: 'Matter';
+}
+.alert {
+margin-right: 10px;
+}
+.alert-success {
+    background-color: var(--success-color);  
+    color: #fff; 
+}
+.alert-error {
+    background-color: var(--error-color);
+    color: #fff;
+}
+.grid-3 {
+    grid-template-columns: repeat(3,1fr);
+}
+
+/* Margin */
+.my-1 {
+margin: 1rem 0;
+}
+.my-2 {
+    margin: 1.5rem 0;
+}
+.my-3 {
+    margin: 2rem 0;
+}
+.my-4 {
+    margin: 3rem 0;
+}
+
+.my-5 {
+    margin: 4rem 0;
+}
+
+.m-1 {
+margin: 1rem;
+}
+.m-2 {
+    margin: 1.5rem;
+}
+.m-3 {
+    margin: 2rem;
+}
+.m-4 {
+    margin: 3rem;
+}
+
+.m-5 {
+    margin: 4rem;
+}
+
+/* padding */
+.py-1 {
+    padding: 1rem 0;
+}
+.py-2 {
+    padding: 1.5rem 0;
+}
+.py-3 {
+    padding: 2rem 0;
+}
+.py-4 {
+    padding: 3rem 0;
+}
+
+.py-5 {
+    padding: 4rem 0;
+}
+.p-1 {
+padding: 1rem;
+}
+.p-2 {
+    padding: 1.5rem;
+}
+.p-3 {
+    padding: 2rem;
+}
+.p-4 {
+    padding: 3rem;
+}
+
+.p-5 {
+    padding: 4rem;
+}
+
+
+ 
+
+
+
+.footer .social a {
+    margin: 0 10px;
+}
+.footer {
+   
+height: 900px;
+}
+footer nav ul li  a{
+    display: grid;
+}
+.footer .news {
+    width: 553px;
+    height: 249px;
+    margin: 44px 767px 32px 120px;
+
+}
+
+footer .sinc {
+   
+    width: 220px;
+    height: 291px;
+    
+}
+footer .platform {
+   
+    width: 122px;
+    height: 290px;
+    
+}
+
+footer .foot-container {
+     display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+footer .foot-container .down-box img {
+    width: 107.76px;
+height: 60px;
+gap: 0px;
+opacity: 0px;
+
+}
+footer .foot-container .down-box p {
+    font-family: 'Matter';
+font-size: 14px;
+font-weight: 300;
+line-height: 27px;
+text-align: left;
+
+}
+footer .last {
+    display: flex;
+    justify-content: space-between;
+}
+.footer .last .socials a img {
+ 
+   
+    flex-direction: row;
+    width: 20px;
+    height: 20px;
+}
+ .socials {
+    padding-left: 30px;
+ }
+ .last .gasus img {
+    width: 120px ;
+    height:38px ;
+ }

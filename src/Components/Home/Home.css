@@ -1,0 +1,1132 @@
+
+
+:root {
+    --primary-color:  #047aed;
+    --secondary-color: #1c3fa8;
+    --dark-color: rgba(16, 16, 16, 1);
+
+    --light-color:#f4f4f4;
+    --error-color: #d9534f;
+    --success-color: #5cb85c;
+    --PrimaryColor: hsl(199, 100%, 33%);
+    --SecondaryColor: hsl(187, 85%, 43%);
+    --blackColor: hsl(201, 33%, 16%);
+    --whiteColor: hsl(0,0%,100%);
+    --textColor: hsl(240, 4%, 36%);
+    --navLinkTextColor: hsla(0, 0%, 13%, 1);
+
+    --whiteColorDeam: hsl(0, 0%, 93%);
+    --greyTextColor: rgb(190,190,190);
+    --inputColor: rgb(239, 239%, 239%);
+    --bodyColor: rgb(240,240,246);
+    --cardBG: rgb(225,225,235);
+    --purple: rgba(244, 119, 51, 1);
+    --pink: rgba(255, 120, 191, 1);
+    --lightGreen: rgba(32, 136, 143, 1);
+
+
+
+    --gradientColor: linear-gradient(to right, hsl(187,85%,43%), hsl(199,100%,33%));
+
+
+}                                           
+
+
+.container {
+   width: 1440px;
+   
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.grid-3 {
+    grid-template-columns: repeat(3,1fr);
+}
+
+
+.card {
+    background-color: #fff;
+    color: #333;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+    padding: 20px;
+    margin: 10px;
+}
+.btn {
+    display: inline-block;
+    padding: 10px 30px;
+    cursor: pointer;
+    background-color: var(--primary-color);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+.btn outline {
+    background-color: #fff;
+    border: 1px #fff solid ;
+}
+.btn:hover {
+    transform: scale(0.98);
+}
+/* background & coloured Button */
+.bg-primary, .btn-primary {
+background-color: var(--primary-color);
+color: #fff;
+}
+.bg-secondary, .btn-secondary {
+background-color: var(--secondary-color);
+color: #fff;
+}
+.bg-dark, .btn-dark {
+background-color: var(--dark-color);
+color: #fff;
+}
+.bg-light, .btn-light {
+background-color: var(--light-color);
+color: #333;
+}
+.bg-primary a, .btn-primary a,
+.bg-secondary a, .btn-secondary a,
+.bg-dark a, .btn-dark a {
+ color: #fff;
+}
+
+/* text Colors */
+
+.text-primary {
+color: var(--primary-color);
+
+}
+.text-secondary {
+color: var(--secondary-color);
+
+}
+.text-dark {
+color: var(--dark-color);
+}
+.text-light {
+color: var(--light-color);
+
+}
+
+/* text Sixes */
+.lead {
+    font-size: 20px;
+}
+.sm {
+    font-size: 1rem ;
+}
+.md {
+    font-size: 2rem;
+}
+.lg {
+    font-size: 3rem;
+}
+.xl {
+    font-size: 4rem;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* Alert */
+.alert {
+    background-color: var(--light-color);
+    padding: 10px 20px;
+    font-weight: bold;
+    margin: 15px 0;
+    font: 'Matter';
+}
+.alert {
+margin-right: 10px;
+}
+.alert-success {
+    background-color: var(--success-color);  
+    color: #fff; 
+}
+.alert-error {
+    background-color: var(--error-color);
+    color: #fff;
+}
+.grid-3 {
+    grid-template-columns: repeat(3,1fr);
+}
+
+
+/* hreo */
+.hero {
+    height: 500px;
+    background: var(--whiteColor);
+   
+   
+}
+
+/* Hero section */
+.hero .sinc {
+    
+    padding-left: 120px;
+    padding-right: 126px;
+    padding-top: 87px;
+}
+
+.hero .sinc h1 {
+font-family: 'Matter';
+font-size: 32px;
+font-weight: 500;
+line-height: 51.2px;
+text-align: left;
+color: var(--blackColor);
+
+}
+.hero .sinc span {
+    font:'Matter';
+    font-weight: 400;
+    Size:24px;
+    line-height:38.4px ;
+    color: var(--blackColor);
+}
+
+
+
+/* .hero .sinc .btn {
+    padding-left: 120px;
+    padding-bottom: 90px;
+    
+} */
+
+img {
+    width: 100%;
+}
+
+/* .hero .sinc span img .three_dots {
+    position: relative;
+    top: 466px;
+    right: 22px;
+    
+    
+   
+} */
+
+.sinc .three_dots img {
+   width: 10%;
+    padding-top: 30px;
+   margin: 0 auto;
+}
+
+.hero .hero_img {
+    width: 703px
+}
+
+
+
+.hero .grid {
+  
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 0;
+    height: 100%;
+    
+    
+}
+
+ /* Quote section */
+.quote  {
+     height: 235px;
+    margin-top: 79px;
+   
+    padding:0;
+}
+.quote .pass {
+    font: 'Matter';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+}
+
+.quote .name {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    font: 'Matter';
+}
+
+.quote .position {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    font: 'Matter';
+}
+
+.quote .nigeria {
+    margin-left: 278px;
+    margin-right: 279px;
+  width: 883px;
+  height: 235px;
+  border-radius: 32px;
+  padding: 32px 20px 32px 20px;
+  border: 2px solid white;
+  text-align: center;
+
+}
+
+/* Builder section */
+.builder {
+   
+    height: 548px;
+   margin-top: 79px;
+
+}
+
+.builder .grid {
+    
+    height: 370px;
+    grid-gap: 12px;
+    opacity: 0px;
+
+}
+.builder .card {
+    width: 528px;
+    height: 370px;
+    padding: 24px;
+    
+    border-radius: 12px;
+    opacity: 0px;
+
+}
+
+ .builder .card h1 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28.8px;
+   
+    font:'Matter';
+ }
+
+
+.builder .card span {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27.2px;
+    text-align: justify;
+    font:'Matter';
+ 
+} 
+
+.builder .card .line  {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.line h2 span img{
+    padding-left: 10px;
+}
+.builder .card h2 {
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 27.2px;
+    text-align: justify;
+    font:'Matter';
+ 
+} 
+
+.builder span img {
+    display: inline;
+    width: 9.15px;
+    height: 9.15px;
+}
+
+
+.builder .card {
+    width: 528px;
+    height: 370px;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: justify;
+}
+
+.area {
+
+    width: 1100px;
+    height: 363px;
+    margin-left: 126px;
+    margin-right: 126px;
+   
+}
+
+.area .box {
+    display: flex;
+    height: 160px;
+    padding-top: 0;
+}
+
+.area .box .box1 {
+    width: 240px;
+    height: 160px;
+   
+    background: var(--dark-color);
+}
+.area .box .box2 {
+    width: 240px;
+    height: 160px;
+   
+    background: var(--purple);
+}
+.area .box .box3 {
+    width: 240px;
+    height: 160px;
+   
+    background: var(--pink);
+}
+.area .box .box4 {
+    width: 240px;
+    height: 160px;
+   
+    background: var(--lightGreen);
+}
+.area .box .box5 {
+    width: 240px;
+    height: 160px;
+   
+    background: var(--pink);
+}
+
+.concept {
+   height: 407px;
+   
+    
+    margin-top: 79px;
+   
+}
+
+.concept .con {
+    width: 934px;
+    height: 44px;
+    margin-left: 253px;
+    margin-top: 0px;
+    margin-right: 253px;
+  
+   
+}
+
+.concept .concept-container {
+    width: 1200px;
+    height: 212px;
+    margin-left: 126px;
+    margin-top: 100px;
+    margin-bottom:64px; 
+   
+}
+
+
+
+.concept .card {
+    width: 352px;
+    height: 212px;
+    border-radius: 12px;
+    padding: 20px 16px 20px 16px;
+}
+
+.concept .con h1 {
+    font-family: 'Matter';
+    font-size: 56px;
+    font-weight: 500;
+    line-height: 67.2px;
+    
+
+}
+.concept .con p {
+    font-family: 'Matter';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    text-align: center;
+
+}
+
+/* Services section */
+.services {
+    height: 850px;
+   
+    
+    margin-top: 79px;
+}
+
+.services .model {
+    width: 934px;
+    height: 131;
+    margin-left: 253px;
+    margin-right: 253px;
+    margin-bottom: 44px;
+}
+
+.services .model h1 {
+    font-family: 'Matter';
+font-size: 56px;
+font-weight: 500;
+line-height: 67.2px;
+text-align: center;
+
+}
+.services .model p {
+   font-family: 'Matter';
+font-size: 17px;
+font-weight: 400;
+line-height: 23.8px;
+text-align: center;
+
+
+}
+
+.services .hypo {
+    width: 1200px;
+height: 576px;
+margin-left: 120px;
+margin-right: 120px;
+margin-top: 44px;
+
+opacity: 0px;
+
+}
+.services .hypo .hypo-text h1 {
+   font-family: 'Matter';
+font-size: 32px;
+font-weight: 500;
+line-height: 38.4px;
+text-align: left;
+
+
+}
+
+.services .hypo .hypo-text {
+    font-family: 'Matter';
+font-size: 17px;
+font-weight: 400;
+line-height: 23.8px;
+text-align: left;
+
+}
+
+.services .services-container {
+    width: 1200px;
+    height: 212px;
+    margin-left: 0px;
+    margin-top: 44px;
+   
+   
+}
+
+
+
+
+.services .hypo .services-container .card {
+    width: 352px;
+    height: 212px;
+    border-radius: 12px;
+    padding: 10px 16px 20px 16px;
+    text-align: justify;
+}
+
+.services-container h1 img {
+    width: 40px;
+    height: 40px;
+}
+
+.services .hypo .case {
+    
+    height: 166px;
+    margin-left: 0px;
+    margin-top: 64px;
+
+}
+
+.case .button {
+    width: 899px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 44px;
+} 
+.case .button .card {
+    
+        width: 286px;
+        height: 48px;
+        padding: 12px 32px 12px 32px;
+       
+        border-radius: 24px;
+        border: 0.5px 0px 0px 0px;
+        opacity: 0px;
+
+}
+.hypo .last {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 235.97px;
+height: 35px;
+gap: 2px;
+opacity: 0px;
+margin: 0 auto;
+
+}
+
+.last p {
+    font-family: 'Matter';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 34.5px;
+    text-align: left;
+    text-decoration: underline;
+
+}
+.last span img {
+        width: 9.15px;
+        height: 9.15px;
+        top: 10.99px;
+        left: 4.51px;
+        gap: 0px;
+        border: 2px 0px 0px 0px;
+        opacity: 0px;
+
+
+}
+
+.studio {
+    height: 765px;
+    margin-top: 100px;
+   
+}
+
+.studio .studio-port {
+    width: 551px;
+    height: 122;
+    margin-top: 0px;
+     margin-left: 445.5px;
+    margin-right: 445.5px;
+}
+
+.studio .studio-port h1 {
+    font-family: 'Matter';
+font-size: 60px;
+font-weight: 500;
+line-height: 74.5px;
+text-align: left;
+}
+.studio .studio-port p {
+        font-family: 'Matter';
+font-size: 16px;
+font-weight: 400;
+line-height: 34.5px;
+text-align: center;
+
+}
+
+.studio .studio-gallery {
+    width: 1100px;
+    height: 520;
+    margin-top: 44px;
+    margin-left: 171px;
+    margin-right: 171px;
+}
+.studio .last {
+display: flex;
+align-items: center;
+    justify-content: space-evenly;
+    width: 170.97px;
+height: 35px;
+gap: 2px;
+opacity: 0px;
+margin: 0 auto;
+
+}
+
+.studio .last p {
+font-family: 'Matter';
+font-size: 16px;
+    font-weight: 600;
+    line-height: 34.5px;
+    text-align: left;
+    text-decoration: underline;
+
+}
+.studio .last span img {
+        width: 9.15px;
+        height: 9.15px;
+        top: 10.99px;
+        left: 4.51px;
+        gap: 0px;
+        border: 2px 0px 0px 0px;
+        opacity: 0px;
+}
+
+.cofound {
+    height: 513px;
+    margin-top: 100px;
+}
+
+.cofound .con {
+    width: 891px;
+height: 115px;
+margin-top: 0px;
+margin-right: 275.4px;
+margin-left: 275.4px;
+opacity: 0px;
+
+}
+
+.cofound .cofound-container {
+    width: 1200px;
+    height: 296px;
+    margin-left:120px ;
+    margin-right:120px ;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.cofound-container .card {
+    width: 380px;
+    height: 296px;
+    padding: 20px;
+    gap: 24px;
+    border-radius: 12px;
+    opacity: 0px;
+    text-align: justify;
+
+}
+
+.cofound .card h1{
+    font-family: 'Matter';
+font-size: 20px;
+font-weight: 500;
+line-height: 24px;
+text-align: left;
+
+}
+
+.cofound .card p{
+    font-family: 'Matter';
+font-size: 16px;
+font-weight: 400;
+line-height: 22.4px;
+text-align: left;
+
+
+}
+
+.cofound .card img {
+    width: 60px;
+height: 60px;
+gap: 0px;
+opacity: 0px;
+
+}
+
+.cofound .last {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 152.97px;
+     height: 33px;
+     opacity: 0px;
+     margin: 0 auto;
+
+}
+
+.cofound .last p {
+    font-family: 'Matter';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 34.5px;
+    text-align: left;
+    text-decoration: underline;
+
+}
+.cofound .last span img {
+        width: 9.15px;
+        height: 9.15px;
+        top: 10.99px;
+        left: 4.51px;
+        gap: 0px;
+        border: 2px 0px 0px 0px;
+        opacity: 0px;
+}
+
+.join {
+
+    height: 854px;
+    margin-top: 100px;
+}
+
+.join .con {
+    width: 934 ;
+    height: 206;
+    margin-left:253px ;
+    margin-right: 253px;
+}
+.join .con h1 {
+    font-family: 'Matter';
+font-size: 56px;
+font-weight: 500;
+line-height: 67.2px;
+text-align: center;
+
+}
+
+.join .join-container {
+    width: 1200px;
+    height: 392px;
+    margin: 56px 120px 56px 120px;
+}
+
+.join-container .card {
+    width: 380px;
+height: 392px;
+padding: 20px;
+gap: 24px;
+border-radius: 12px;
+opacity: 0px;
+padding: 20px;
+}
+
+.join-container .card img {
+    width: 60px;
+height: 60px;
+gap: 0px;
+opacity: 0px;
+}
+.join-container .card h1 {
+    font-family: 'Matter';
+font-size: 20px;
+font-weight: 500;
+line-height: 24px;
+text-align: left;
+}
+.join-container .card p {
+        font-family: 'Matter';
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22.4px;
+        text-align: left;
+
+}
+
+.join .last {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 168.97px;
+     height: 22px;
+     opacity: 0px;
+    margin: 56px 616.5px 0px 616.5px;
+
+}
+
+.join .last p {
+  font-family: Matter;
+font-size: 16px;
+font-weight: 600;
+line-height: 22.4px;
+text-align: left;
+
+
+}
+.join .last span img {
+        width: 15.54px;
+        height: 15.54px;
+        
+        
+        
+        opacity: 0px;
+}
+
+.join .arrow {
+    width: 207px;
+    height: 66px;
+     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 56px 616.5px 0px 616.5px;
+}
+.join .arrow  img {
+   
+    width: 66px;
+    height: 66px;
+}
+
+.featured {
+    
+    height: 479px;
+margin-top: 100px;
+
+}
+.featured .container .grid .grid-3{
+    grid-gap: 0px;
+}
+
+.featured .punch {
+    width: 200px;
+    height: 393px;
+    border: 2px solid white;
+}
+.featured .punch img {
+    width: 74px;
+    height: 40px;
+    
+}
+.featured .punch img {
+    width: 74px;
+    height: 40px;
+    
+}
+.featured .buj {
+    display: flex;
+    width: 800px;
+    height: 393px;
+    
+}
+.featured .buj img{
+    width: 600px;
+    height: 393px;
+ 
+}
+.featured .buj .punch img {
+    width: 74px;
+    height: 40px;
+    
+}
+.featured .ontech {
+    width: 200px;
+    height: 393px;
+    
+}
+
+.featured .ontech img {
+    width: 200px;
+    height: 393px;
+}
+
+.lets {
+   
+    height: 297px;
+    margin: 100px;
+}
+.lets p {
+font-family: 'Matter';
+font-size: 80px;
+font-weight: 400;
+line-height: 104px;
+text-align: center;
+
+}
+
+.lets .links {
+    width: 380px;
+    height: 49px;
+    margin: 40px 315.5px 0px 315.5px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.lets .links .btn1 {
+    width: 190px;
+height:49px;
+padding: 10px 32px 10px 32px;
+gap: 10px;
+border-radius: 24px 0px 0px 0px;
+border: 1px 0px 0px 0px;
+opacity: 0px;
+}
+
+.blogs {
+    width: 1200px;
+    height: 576px;
+margin: 80px 120px;
+
+}
+
+.blogs .blogs-container {
+    width: 1198px;
+    height: 382px;
+
+}
+
+.blogs .blogs-container  img{
+   width: 378px;
+height: 235px;
+gap: 0px;
+opacity: 0px;
+}
+.blogs .glog-container {
+    width: 1200px;
+    height: 79px;
+}
+.blogs  .glog-container .glog {
+    width: 378px;
+    height: 79px;
+    
+}
+.blogs .glog-container .glog .glog-text {
+  width: 277px;
+  height: 79px;
+}
+/* .blogs .glogs-container.glog .glog-text h4 {
+
+}
+.blogs .glogs-container.glog .glog-text h6 {
+
+} */
+.blogs .glog-container .glog img {
+width: 85px;
+height: 79px;
+}
+.investor {
+  
+    height: 792px;
+    margin-top: 100px;
+  
+}
+.investor .text-equity1 {
+    width: 934px;
+    height: 219px;
+    margin: 0px 263px 44px 253px;
+   
+}
+.investor .div2 {
+    width: 1200px;
+    height: 529px;
+    margin: 0 120px;
+   
+}
+.investor .div2 .box{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 1200px;
+    height: 212px;
+}
+.div2 .box {
+    display: flex;
+    height: 160px;
+    padding-top: 0;
+}
+
+.box .box1 {
+    width: 300px;
+    height: 212px;
+   
+    background: var(--whiteColor)
+}
+.box .box2 {
+  width: 300px;
+    height: 212px;
+   
+    background: var(--whiteColor);
+}
+.box .box3 {
+  width: 300px;
+    height: 212px;
+   
+    background: var(--whiteColor)
+}
+.box .box4 {
+  width: 300px;
+    height: 212px;
+   
+    background: var(--whiteColor);
+}
+.box .box8 {
+  width: 300px;
+    height: 212px;
+   
+    background: var(--dark-color);
+}
+
+.equity {
+    width:1200px ;
+    height: 709px;
+    margin-top: 100px;
+    
+}
+
+.equity .text-equity1{
+    width:934px ;
+    height:128px;
+    margin: 0 133px 44px 133px;
+   
+}
+
+.equity .text-equity2{
+    display: flex;
+    
+    justify-content: space-between;
+    width:1199px ;
+    height: 449px;
+margin-left: 100px;
+    
+}
+.equity .text-equity2 .box{
+    width: 278px;
+height: 449px;
+
+
+border-radius: 12px;
+
+}
+.box img{
+  width: 118.52px;
+height: 64px;
+gap: 0px;
+opacity: 0px;
+
+
+}
+.equity .text-equity1 h1 {
+    font-family: 'Matter';
+font-size: 56px;
+font-weight: 600;
+line-height: 67.2px;
+text-align: center;
+
+}
+.equity .text-equity1 p {
+    font-family: 'Matter';
+font-size: 17px;
+font-weight: 400;
+line-height: 37.4px;
+text-align: center;
+
+}
+.text-equity2 .location {
+    display: flex;
+    justify-content: space-between;
+}
+.text-equity2 .location p {
+font-family: 'Matter';
+font-size: 14px;
+font-weight: 400;
+line-height: 16.8px;
+text-align: left;
+
+}
+.text-equity2 .location h3 {
+    font-family: Matter;
+font-size: 14px;
+font-weight: 400;
+line-height: 16.8px;
+text-align: justify;
+
+}

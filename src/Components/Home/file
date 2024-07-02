@@ -1,0 +1,98 @@
+ <div className="down">
+            <div className="down-nav grid-4">
+                
+          <div className="down-platform">
+            <h2>Platforms
+           </h2>
+                   <nav>
+                    <ul>
+                      <li><a href="/rome">kofoundme</a></li>
+                      <li><a href="/rome">InResidency</a></li>
+                      <li><a href="/rome">Service Market</a></li>
+                      <li><a href="/rome">Founders School</a></li>
+                      <li><a href="/rome">Metty</a></li>
+                      <li><a href="/rome">Grantty</a></li>
+                      <li><a href="/rome">Boldtell</a></li>
+                      <li><a href="/rome">Chekwa</a></li>
+                    
+
+                    </ul>
+                  </nav>
+          </div>
+          
+          
+          <div className="down-initiatives">
+             <h2>Initiatives</h2>
+                  <nav>
+                    <ul>
+                      <li><a href="/rome">Jabi Plains</a></li>
+                      <li><a href="/rome">Local Pricing Initiatives</a></li>
+                      <li><a href="/rome">Scholarship program</a></li>
+                      <li><a href="/rome">SSMN Initiatives</a></li>
+                      <li><a href="/rome">University Stem</a></li>
+                      <li><a href="/rome">University InResidency</a></li>
+                      <li><a href="/rome">1Million Nigerian Product</a></li>
+                      <li><a href="/rome">Founders Festival</a></li>
+                    
+
+                    </ul>
+                  </nav>
+          </div>
+          
+          
+          <div className="down-about">
+           <h2> About Us</h2>
+                  <nav>
+                    <ul>
+                   
+                      <li><a href="/rome">Who we Are</a></li>
+                      <li><a href="/rome">Our People</a></li>
+                      <li><a href="/rome">Concept Innovations</a></li>
+                      <li><a href="/rome">Our Process</a></li>
+                      <li><a href="/rome">Investors Network</a></li>
+                      <li><a href="/rome">CSR & Events</a></li>
+                    <li><a href="/rome">Career</a></li>
+                    <li><a href="/rome">Contact</a></li>
+                    
+
+                    </ul>
+                  </nav>
+          </div>
+          
+          
+          <div className="down-platform">
+            <p>More</p>
+                  <nav>
+                    <ul>
+                      <li><a href="/rome">Service</a></li>
+                      <li><a href="/rome">Equitys Job</a></li>
+                      <li><a href="/rome">EIR Program</a></li>
+                      <li><a href="/rome">Offers</a></li>
+                      <li><a href="/rome">Innovation News</a></li>
+                      <li><a href="/rome">FAQ</a></li>
+                      <li><a href="/rome">Blog & Resources</a></li>
+                      <li><a href="/rome">Press</a></li>
+                    
+
+                    </ul>
+                  </nav>
+                </div>
+            </div>
+        
+            <div className="down-loc">
+                  <h1>Locations</h1>
+                  <p>Abuja, Nigeria 
+                   Lagos, Nigeria 
+            Philadelphia, USA</p>
+          <img src={truster_logo} alt="" />
+          <p>Trusted</p>
+        </div>
+ 
+
+      </div>
+      <div>
+        <p> Guaranteed 2x on your service or cash investment, usually been the first to invest. Get in early and SINC your guaranty!
+        </p>
+        <p>web</p>
+    
+            </div>

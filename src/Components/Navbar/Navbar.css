@@ -1,0 +1,93 @@
+
+.container {
+    width: 1440px;
+    height: 98px;
+   
+}
+.navbar {
+    display: flex;
+    width: 1200px;
+    height: 64px;
+   
+   
+    opacity: 0px;
+    background: rgba(255, 255, 255, 1);
+
+}
+
+.navbar nav {
+        width: 614.6px;
+        height: 64px;
+        padding: 24px 120px 0px 14px;
+        opacity: 0px;
+
+}
+
+.navbar img {
+  width: 114.94px;
+height: 64px;
+gap: 0px;
+opacity: 0px;
+
+}
+ .navbar .links {
+ 
+    width: 321px;
+    height: 49px;
+    padding-top: 7.5px;
+    padding-bottom: 7.5px;
+    padding-left: 12px;
+    opacity: 0px;
+
+}
+
+
+
+.navbar .links  .btn1 {
+        width: 147px;
+        height: 49px;
+       
+        background: rgba(32, 136, 143, 1);
+        border-radius: 24px;
+        opacity: 0px;
+}
+
+.navbar .links  a {
+    color: white;
+} 
+.navbar .links  .btn2 {
+        width: 162px;
+        height: 49px;
+  
+        background: rgba(48, 48, 48, 1);
+
+        border-radius: 24px;
+        opacity: 0px;
+
+
+}
+
+.navbar .flex {
+    justify-content: space-between;
+}
+.navbar ul {
+    width: 475.66px;
+    height: 26px;
+    padding: 0px 24px 19px 19px;
+    opacity: 0px;
+
+    display: flex;
+}
+.navbar a {
+    color: var(--dark-color);
+    padding: 10px;
+    margin: 0 5px;
+}
+
+.navbar a:hover {
+    border-bottom: 2px #9b0c1a solid;
+}
+
+img {
+    width: 100%;
+}
